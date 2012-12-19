@@ -10,7 +10,7 @@ License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
 # Source0-md5:	f7cc1d6515446254ee4b170cc63244f0
-URL:		http://pear.symfony.com/package/EventDispatcher/
+URL:		http://symfony.com/doc/current/components/event_dispatcher/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
