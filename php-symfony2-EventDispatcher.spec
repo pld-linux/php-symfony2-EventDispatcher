@@ -4,12 +4,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Symfony2 EventDispatcher Component
 Name:		php-symfony2-EventDispatcher
-Version:	2.1.4
+Version:	2.1.6
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	f7cc1d6515446254ee4b170cc63244f0
+# Source0-md5:	a54f54a2ffa258e613e64837a8da4bc0
 URL:		http://symfony.com/doc/current/components/event_dispatcher/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
