@@ -3,20 +3,23 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 EventDispatcher Component
 Name:		php-symfony2-EventDispatcher
-Version:	2.3.4
+Version:	2.4.3
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	8b023404313cca74bd093e1d3dbed45e
-URL:		http://symfony.com/doc/current/components/event_dispatcher/index.html
+# Source0-md5:	993b9a5d0e65dbbaff703f42d29db402
+URL:		http://symfony.com/doc/2.4/components/event_dispatcher/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(spl)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 4:1.3.10
+Suggests:	php-symfony2-DependencyInjection
+Suggests:	php-symfony2-HttpKernel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
