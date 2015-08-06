@@ -45,3 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{php_pear_dir}/Symfony/Component/EventDispatcher
 %{php_pear_dir}/Symfony/Component/EventDispatcher/*.php
 %{php_pear_dir}/Symfony/Component/EventDispatcher/Debug
+%{php_pear_dir}/Symfony/Component/EventDispatcher/DependencyInjection
