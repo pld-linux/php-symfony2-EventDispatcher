@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 EventDispatcher Component
 Name:		php-symfony2-EventDispatcher
-Version:	2.7.5
+Version:	2.7.7
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	76eb287f1a2f19a309325c51c2c2ed16
+# Source0-md5:	5a587cc69d7601525fb3c2dfd2d993ed
 URL:		http://symfony.com/doc/2.7/components/event_dispatcher/index.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -28,7 +28,7 @@ Implements a lightweight version of the Observer design pattern.
 %setup -q -n event-dispatcher-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
