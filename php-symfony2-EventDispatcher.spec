@@ -14,6 +14,7 @@ BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(spl)
+Requires:	php-dirs >= 1.6
 Suggests:	php-symfony2-DependencyInjection
 Suggests:	php-symfony2-HttpKernel
 BuildArch:	noarch
