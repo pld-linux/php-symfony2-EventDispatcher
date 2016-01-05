@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 EventDispatcher Component
 Name:		php-symfony2-EventDispatcher
-Version:	2.7.7
+Version:	2.7.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	5a587cc69d7601525fb3c2dfd2d993ed
+# Source0-md5:	f6dd0e367ed8445c283b80733995161e
 URL:		http://symfony.com/doc/2.7/components/event_dispatcher/index.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
