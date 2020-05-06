@@ -2,13 +2,13 @@
 %define		php_min_version 5.3.9
 Summary:	Symfony2 EventDispatcher Component
 Name:		php-symfony2-EventDispatcher
-Version:	2.7.8
+Version:	2.8.52
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	f6dd0e367ed8445c283b80733995161e
-URL:		http://symfony.com/doc/2.7/components/event_dispatcher/index.html
+# Source0-md5:	ad1d4eaded4416429c39f5b57af7f50a
+URL:		https://symfony.com/doc/2.8/components/event_dispatcher.htmlindex.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
